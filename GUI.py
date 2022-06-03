@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from time import sleep
 
-#####################################INTERFACE######################################################
+#############################################INTERFACE######################################################
 
 # Primeria janela
 def Inicio():
@@ -35,7 +35,7 @@ def Digita():
 def Get():
     return values['escolha']
 
-#####################################FUNÇÃO######################################################
+###########################################FUNÇÃO######################################################
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -86,7 +86,7 @@ def Pesquisa():
     except:
         GUI.popup_ok("Moeda não encontrada, por favor verifique a escrita e tente novamente!",title="Erro de busca")
 
-#####################################INTERFACE######################################################
+####################################################################################################################
 
 
 
