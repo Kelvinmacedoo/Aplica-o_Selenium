@@ -10,3 +10,6 @@
 #### ° Selenium
 #### ° BeautifulSoap
 #### ° PySimpleGUI
+
+## Atenção:
+## O arquivo "GUI.py" é a versão da aplicação com a interface para o usuário, arquivo "main.py" é a versão sem a interface e utiliza o console (CMD, PowerShell).
